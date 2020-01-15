@@ -1,4 +1,4 @@
-<script language="javascript" type="text/javascript">
+document.write("<script language='javascript' type='text/javascript'>");
 document.write("<style type='text/css'>");
 document.write("        table {");
 document.write("            display: block; ");
