@@ -1,3 +1,4 @@
+<script language="javascript" type="text/javascript">
 document.write("<style type='text/css'>");
 document.write("        table {");
 document.write("            display: block; ");
@@ -27,3 +28,4 @@ document.write("            width: 125px;");
 document.write("            height: 100px;"); 
 document.write("        }");
 document.write("</style>");
+document.write("</script>");
