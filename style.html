@@ -1,9 +1,35 @@
-<style type="text/css">     
-        html {
-            max-width: 100%;
-            box-sizing: border-box;  
-        }        
-  
+<style type="text/css"> 
+        #outer-wrapper {
+            margin:0;
+            padding:10px;
+            text-align:left;
+            font: $bodyfont;
+        }
+
+        #main-wrapper {
+            margin-left: 1%; 
+            width: 67%; 
+            float: left;
+            word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+            overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+        }
+
+        html > body #main-wrapper {
+            margin-left: 2%; <==
+        }
+
+        #sidebar-wrapper {
+            margin-right: 1%; 
+            width: 25%; 
+            float: right;
+            word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+            overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+        }
+
+        html > body #sidebar-wrapper {
+            margin-right: 2%; <==
+        }
+        
         table {
             display: block; 
         }
@@ -51,10 +77,6 @@
             padding: 8px 16px;
             background-color: #4CAF50;
             color: white;
-        }
-        
-        * {
-            box-sizing: inherit;
         }
 }
 </style>
